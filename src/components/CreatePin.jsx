@@ -94,7 +94,6 @@ const CreatePin = ({ user }) => {
             {loading && <Spinner />}
             {wrongImageType && <p>It&apos;s wrong file type.</p>}
             {!imageAsset ? (
-              // eslint-disable-next-line jsx-a11y/label-has-associated-control
               <label>
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex flex-col justify-center items-center">
